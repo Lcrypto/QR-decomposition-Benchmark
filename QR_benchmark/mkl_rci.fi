@@ -1,0 +1,80 @@
+!*******************************************************************************
+!                             INTEL CONFIDENTIAL
+!   Copyright(C) 2005-2010 Intel Corporation. All Rights Reserved.
+!   The source code contained  or  described herein and all documents related to
+!   the source code ("Material") are owned by Intel Corporation or its suppliers
+!   or licensors.  Title to the  Material remains with  Intel Corporation or its
+!   suppliers and licensors. The Material contains trade secrets and proprietary
+!   and  confidential  information of  Intel or its suppliers and licensors. The
+!   Material  is  protected  by  worldwide  copyright  and trade secret laws and
+!   treaty  provisions. No part of the Material may be used, copied, reproduced,
+!   modified, published, uploaded, posted, transmitted, distributed or disclosed
+!   in any way without Intel's prior express written permission.
+!   No license  under any  patent, copyright, trade secret or other intellectual
+!   property right is granted to or conferred upon you by disclosure or delivery
+!   of the Materials,  either expressly, by implication, inducement, estoppel or
+!   otherwise.  Any  license  under  such  intellectual property  rights must be
+!   express and approved by Intel in writing.
+!
+!*******************************************************************************
+!  Content:
+!    Intel(R) Math Kernel Library (MKL) interface for preconditioners, RCI ISS
+!    and TR solvers routines
+!******************************************************************************
+      EXTERNAL DCG
+      EXTERNAL DCG_INIT
+      EXTERNAL DCG_CHECK
+      EXTERNAL DCG_GET
+
+      EXTERNAL DCSRILU0
+      EXTERNAL DCSRILUT
+
+      EXTERNAL DFGMRES
+      EXTERNAL DFGMRES_INIT
+      EXTERNAL DFGMRES_CHECK
+      EXTERNAL DFGMRES_GET
+
+      EXTERNAL DCGMRHS
+      EXTERNAL DCGMRHS_INIT
+      EXTERNAL DCGMRHS_CHECK
+      EXTERNAL DCGMRHS_GET
+
+      EXTERNAL MKL_FREEBUFFERS
+
+! PARAMETERS
+      INTEGER    TR_SUCCESS
+      PARAMETER (TR_SUCCESS = 1501)
+      INTEGER    TR_INVALID_OPTION
+      PARAMETER (TR_INVALID_OPTION = 1502)
+      INTEGER    TR_OUT_OF_MEMORY
+      PARAMETER (TR_OUT_OF_MEMORY = 1503)
+
+! FUNCTION PROTOTYPES
+      EXTERNAL DTRNLSP_INIT
+      INTEGER  DTRNLSP_INIT
+      EXTERNAL DTRNLSP_SOLVE
+      INTEGER  DTRNLSP_SOLVE
+      EXTERNAL DTRNLSP_GET
+      INTEGER  DTRNLSP_GET
+      EXTERNAL DTRNLSP_DELETE
+      INTEGER  DTRNLSP_DELETE
+
+      EXTERNAL DTRNLSPBC_INIT
+      INTEGER  DTRNLSPBC_INIT
+      EXTERNAL DTRNLSPBC_SOLVE
+      INTEGER  DTRNLSPBC_SOLVE
+      EXTERNAL DTRNLSPBC_GET
+      INTEGER  DTRNLSPBC_GET
+      EXTERNAL DTRNLSPBC_DELETE
+      INTEGER  DTRNLSPBC_DELETE
+
+      EXTERNAL DJACOBI_INIT
+      INTEGER  DJACOBI_INIT
+      EXTERNAL DJACOBI_SOLVE
+      INTEGER  DJACOBI_SOLVE
+      EXTERNAL DJACOBI_DELETE
+      INTEGER  DJACOBI_DELETE
+      EXTERNAL DJACOBI
+      INTEGER  DJACOBIX
+      EXTERNAL DJACOBIX
+      INTEGER  DJACOBI

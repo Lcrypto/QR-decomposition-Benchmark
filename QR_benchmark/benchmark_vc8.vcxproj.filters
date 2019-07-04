@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{7656e2c0-49f1-4b3a-887d-e926eaf81caa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="qr%27s.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\..\..\..\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.1\lib\Win32\cublas.lib">
+      <Filter>Resource Files</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.1\lib\Win32\cuda.lib">
+      <Filter>Resource Files</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.1\lib\Win32\cudart.lib">
+      <Filter>Resource Files</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.1\lib\Win32\cufft.lib">
+      <Filter>Resource Files</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.1\lib\Win32\cuinj.lib">
+      <Filter>Resource Files</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.1\lib\Win32\curand.lib">
+      <Filter>Resource Files</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.1\lib\Win32\cusparse.lib">
+      <Filter>Resource Files</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\Program Files\Intel\MKL\10.2.6.037\ia32\lib\libguide.lib">
+      <Filter>Resource Files</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\Program Files\Intel\MKL\10.2.6.037\ia32\lib\libguide40.lib">
+      <Filter>Resource Files</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\Program Files\Intel\MKL\10.2.6.037\ia32\lib\libiomp5md.lib">
+      <Filter>Resource Files</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\Program Files\Intel\MKL\10.2.6.037\ia32\lib\libiomp5mt.lib">
+      <Filter>Resource Files</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\Program Files\Intel\MKL\10.2.6.037\ia32\lib\mkl_blacs_dll.lib">
+      <Filter>Resource Files</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\Program Files\Intel\MKL\10.2.6.037\ia32\lib\mkl_blacs_intelmpi.lib">
+      <Filter>Resource Files</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\Program Files\Intel\MKL\10.2.6.037\ia32\lib\mkl_blacs_mpich2.lib">
+      <Filter>Resource Files</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\Program Files\Intel\MKL\10.2.6.037\ia32\lib\mkl_blas95.lib">
+      <Filter>Resource Files</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\Program Files\Intel\MKL\10.2.6.037\ia32\lib\mkl_cdft_core.lib">
+      <Filter>Resource Files</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\Program Files\Intel\MKL\10.2.6.037\ia32\lib\mkl_cdft_core_dll.lib">
+      <Filter>Resource Files</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\Program Files\Intel\MKL\10.2.6.037\ia32\lib\mkl_core.lib">
+      <Filter>Resource Files</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\Program Files\Intel\MKL\10.2.6.037\ia32\lib\mkl_core_dll.lib">
+      <Filter>Resource Files</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\Program Files\Intel\MKL\10.2.6.037\ia32\lib\mkl_intel_c.lib">
+      <Filter>Resource Files</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\Program Files\Intel\MKL\10.2.6.037\ia32\lib\mkl_intel_c_dll.lib">
+      <Filter>Resource Files</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\Program Files\Intel\MKL\10.2.6.037\ia32\lib\mkl_intel_s.lib">
+      <Filter>Resource Files</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\Program Files\Intel\MKL\10.2.6.037\ia32\lib\mkl_intel_s_dll.lib">
+      <Filter>Resource Files</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\Program Files\Intel\MKL\10.2.6.037\ia32\lib\mkl_intel_thread.lib">
+      <Filter>Resource Files</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\Program Files\Intel\MKL\10.2.6.037\ia32\lib\mkl_lapack95.lib">
+      <Filter>Resource Files</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\Program Files\Intel\MKL\10.2.6.037\ia32\lib\mkl_pgi_thread.lib">
+      <Filter>Resource Files</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\Program Files\Intel\MKL\10.2.6.037\ia32\lib\mkl_scalapack_core.lib">
+      <Filter>Resource Files</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\Program Files\Intel\MKL\10.2.6.037\ia32\lib\mkl_sequential.lib">
+      <Filter>Resource Files</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\Program Files\Intel\MKL\10.2.6.037\ia32\lib\mkl_solver.lib">
+      <Filter>Resource Files</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\Program Files\Intel\MKL\10.2.6.037\ia32\lib\mkl_solver_sequential.lib">
+      <Filter>Resource Files</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.1\lib\Win32\npp.lib">
+      <Filter>Resource Files</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.1\lib\Win32\nvcuvenc.lib">
+      <Filter>Resource Files</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.1\lib\Win32\nvcuvid.lib">
+      <Filter>Resource Files</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.1\lib\Win32\OpenCL.lib">
+      <Filter>Resource Files</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.1\include\cuda_runtime_api.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mkl_lapack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="qr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

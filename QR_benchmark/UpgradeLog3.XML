@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="benchmark_vc9">
+</Property><Property Name="Solution File" Value="D:\Lattice reduction\QR_benchmark_full\benchmark_vc9.sln">
+</Property><Property Name="Date" Value="3 августа 2012 г.">
+</Property><Property Name="Time" Value="20:05">
+</Property><Property Name="Log Number" Value="3">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="benchmark_vc9.sln" Description="File successfully backed up as D:\Lattice reduction\QR_benchmark_full\benchmark_vc9.sln.old">
+</Event><Event ErrorLevel="0" Project="benchmark_vc9" Source="benchmark_vc9.vcproj" Description="Converting project file 'D:\Lattice reduction\QR_benchmark_full\benchmark_vc9.vcproj'.">
+</Event><Event ErrorLevel="1" Project="benchmark_vc9" Source="benchmark_vc9.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="benchmark_vc9" Source="benchmark_vc9.vcproj" Description="Done converting to new project file 'D:\Lattice reduction\QR_benchmark_full\benchmark_vc9.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="benchmark_vc9" Source="benchmark_vc9.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="benchmark_vc9.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="benchmark_vc9.sln" Description="Converted">
+</Event></UpgradeLog>

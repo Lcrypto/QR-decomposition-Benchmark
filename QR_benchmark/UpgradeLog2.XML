@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="benchmark_vc8">
+</Property><Property Name="Solution File" Value="D:\Lattice reduction\QR_benchmark_full\benchmark_vc8.sln">
+</Property><Property Name="User Options File" Value="D:\Lattice reduction\QR_benchmark_full\benchmark_vc8.suo">
+</Property><Property Name="Date" Value="3 августа 2012 г.">
+</Property><Property Name="Time" Value="20:05">
+</Property><Property Name="Log Number" Value="2">
+</Property></Properties><Event ErrorLevel="2" Project="" Source="benchmark_vc8.sln" Description="Error creating backup file: D:\Lattice reduction\QR_benchmark_full\benchmark_vc8.sln.old">
+</Event><Event ErrorLevel="0" Project="" Source="benchmark_vc8.suo" Description="File successfully backed up as D:\Lattice reduction\QR_benchmark_full\benchmark_vc8.suo.old">
+</Event><Event ErrorLevel="0" Project="benchmark_vc8" Source="benchmark_vc8.vcproj" Description="Converting project file 'D:\Lattice reduction\QR_benchmark_full\benchmark_vc8.vcproj'.">
+</Event><Event ErrorLevel="1" Project="benchmark_vc8" Source="benchmark_vc8.vcproj" Description="VCConvertEngine.dll encountered an error.">
+</Event><Event ErrorLevel="1" Project="benchmark_vc8" Source="benchmark_vc8.vcproj" Description="VCConvertEngine.dll encountered an error.">
+</Event><Event ErrorLevel="1" Project="benchmark_vc8" Source="benchmark_vc8.vcproj" Description="VCConvertEngine could not convert attribute ConfigurationType = 1 under Configuration Debug|Win32.">
+</Event><Event ErrorLevel="1" Project="benchmark_vc8" Source="benchmark_vc8.vcproj" Description="VCConvertEngine could not convert attribute CharacterSet = 1 under Configuration Debug|Win32.">
+</Event><Event ErrorLevel="2" Project="benchmark_vc8" Source="benchmark_vc8.vcproj" Description="The imported project &quot;C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\BuildCustomizations\NvCudaRuntimeApi.v4.1.targets&quot; was not found. Confirm that the path in the &lt;Import&gt; declaration is correct, and that the file exists on disk.  D:\Lattice reduction\QR_benchmark_full\benchmark_vc8.vcxproj">
+</Event><Event ErrorLevel="2" Project="D:\Lattice reduction\QR_benchmark_full\benchmark_vc8.vcproj" Source="" Description="The following error has occurred during XML parsing:&#xA;&#xA;File: D:\Lattice reduction\QR_benchmark_full\benchmark_vc8.vcproj&#xA;Line: 36&#xA;Column: 5&#xA;Error Message:&#xA;Системная ошибка: -2146233088.&#xA;&#xA;The file 'D:\Lattice reduction\QR_benchmark_full\benchmark_vc8.vcproj' has failed to load.">
+</Event><Event ErrorLevel="2" Project="benchmark_vc8" Source="benchmark_vc8.vcproj" Description="Project upgrade failed.">
+</Event><Event ErrorLevel="3" Project="benchmark_vc8" Source="benchmark_vc8.vcproj" Description="Not Converted">
+</Event><Event ErrorLevel="0" Project="" Source="benchmark_vc8.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="benchmark_vc8.sln" Description="Converted">
+</Event></UpgradeLog>
