@@ -1,0 +1,1 @@
+﻿C:\Users\Besel\Desktop\QR_benchmark_full\QR_benchmark_full\benchmark_vc8.vcxproj(265,5): error MSB4019: The imported project "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\BuildCustomizations\NvCudaRuntimeApi.v4.1.targets" was not found. Confirm that the path in the <Import> declaration is correct, and that the file exists on disk.
